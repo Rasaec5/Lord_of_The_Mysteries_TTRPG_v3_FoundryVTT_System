@@ -32,5 +32,15 @@
     },
     "url": "https://github.com/DrTrogalstaid/Lord_of_The_Mysteries_TTRPG_v3_FoundryVTT_System",
     "manifest": "https://github.com/DrTrogalstaid/Lord_of_The_Mysteries_TTRPG_v3_FoundryVTT_System/blob/main/system.json",
-    "download": ""
+    "download": "",
+    "background": "systems/lotm/assets/backgrounds/lotm-background-main.jpg",
+    "documentTypes": {
+        "Actor": {
+            "Player": {
+                "htmlFields": [
+                    "details.description"
+                ]
+            }
+        }
+    }
 }

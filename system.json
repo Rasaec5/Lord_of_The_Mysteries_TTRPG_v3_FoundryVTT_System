@@ -36,7 +36,7 @@
     "background": "systems/lotm/assets/backgrounds/lotm-background-main.jpg",
     "documentTypes": {
         "Actor": {
-            "Player": {
+            "Player_Character": {
                 "htmlFields": [
                     "details.description"
                 ]

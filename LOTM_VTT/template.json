@@ -1,0 +1,20 @@
+{
+    "Actor": {
+        "types": [
+            "pc"
+        ],
+        "htmlFields": [
+            "description"
+        ],
+        "pc": {}
+    },
+    "Item": {
+        "types": [
+            "loot"
+        ],
+        "htmlFields": [
+            "description"
+        ],
+        "loot": {}
+    }
+}

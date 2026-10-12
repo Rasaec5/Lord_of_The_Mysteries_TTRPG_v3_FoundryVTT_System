@@ -29,7 +29,6 @@ LORD_OF_THE_MYSTERIES.attributeAbbreviations = {
 
 LORD_OF_THE_MYSTERIES.resources = {
     hp: 'LORD_OF_THE_MYSTERIES.Attributes.Health.long',
-    sp: 'LORD_OF_THE_MYSTERIES.Attributes.Spirit.long',
     rp: 'LORD_OF_THE_MYSTERIES.Attributes.Rationality.long',
     lp: 'LORD_OF_THE_MYSTERIES.Attributes.Luck.long',
     spp: 'LORD_OF_THE_MYSTERIES.Attributes.Spirituality.long',
@@ -72,7 +71,8 @@ LORD_OF_THE_MYSTERIES.skillCategories = {
     performance: 'LORD_OF_THE_MYSTERIES.Skill_Categories.Performance',
     psychological: 'LORD_OF_THE_MYSTERIES.Skill_Categories.Psychological',
     reconnaissance: 'LORD_OF_THE_MYSTERIES.Skill_Categories.Reconnaissance',
-    writing: 'LORD_OF_THE_MYSTERIES.Skill_Categories.Writing'
+    writing: 'LORD_OF_THE_MYSTERIES.Skill_Categories.Writing',
+    extraordinaryKnowledge: 'LORD_OF_THE_MYSTERIES.Skill_Categories.ExtraordinaryKnowledge'
 };
 
 LORD_OF_THE_MYSTERIES.skillAttributes = {
@@ -115,9 +115,14 @@ LORD_OF_THE_MYSTERIES.skillCompendiumFolders = {
 };
 
 LORD_OF_THE_MYSTERIES.actionTypes = {
-    free: 'LORD_OF_THE_MYSTERIES.Skill_Level.free',
-    attack: 'LORD_OF_THE_MYSTERIES.Skill_Level.attack',
-    quick: 'LORD_OF_THE_MYSTERIES.Skill_Level.quick',
-    move: 'LORD_OF_THE_MYSTERIES.Skill_Level.move',
-    full: 'LORD_OF_THE_MYSTERIES.Skill_Level.full',
+    free: 'LORD_OF_THE_MYSTERIES.Action_Type.free',
+    attack: 'LORD_OF_THE_MYSTERIES.Action_Type.attack',
+    quick: 'LORD_OF_THE_MYSTERIES.Action_Type.quick',
+    move: 'LORD_OF_THE_MYSTERIES.Action_Type.move',
+    full: 'LORD_OF_THE_MYSTERIES.Action_Type.full',
+};
+
+LORD_OF_THE_MYSTERIES.actionCategories = {
+    combat: 'LORD_OF_THE_MYSTERIES.Action_Category.combat',
+    downTime: 'LORD_OF_THE_MYSTERIES.Action_Category.downtime',
 };
